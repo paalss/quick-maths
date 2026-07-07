@@ -16,7 +16,9 @@ const answerForm = document.getElementById("answerForm");
 
 // turn answer into a negation
 const negationBtn = document.getElementById("negationBtn")
-answerInput.value = answerInput.value * -1
+negationBtn.addEventListener("click", () => {
+  answerInput.value = answerInput.value * -1
+})
 
 // containers
 const startgameContainer = document.getElementById("startgameContainer");
