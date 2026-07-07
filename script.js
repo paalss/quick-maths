@@ -14,6 +14,10 @@ const timeDisplay = document.getElementById("time");
 const answerInput = document.getElementById("answerBox");
 const answerForm = document.getElementById("answerForm");
 
+// turn answer into a negation
+const negationBtn = document.getElementById("negationBtn")
+answerInput.value = answerInput.value * -1
+
 // containers
 const startgameContainer = document.getElementById("startgameContainer");
 const questionContainer = document.getElementById("questionContainer");
