@@ -17,7 +17,12 @@ const answerForm = document.getElementById("answerForm");
 // turn answer into a negation
 const negationBtn = document.getElementById("negationBtn")
 negationBtn.addEventListener("click", () => {
-  answerInput.value = answerInput.value * -1
+  if (answerInput.value === "") {
+    answerInput.value = "-"
+  } else {
+    answerInput.value = answerInput.value * -1
+  }
+  
   answerInput.focus()
 })
 
