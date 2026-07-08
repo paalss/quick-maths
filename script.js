@@ -17,7 +17,7 @@ const answerForm = document.getElementById("answerForm");
 // turn answer into a negation
 const negationBtn = document.getElementById("negationBtn")
 negationBtn.addEventListener("click", () => {
-  if (answerInput.value === "") {
+  if (answerInput.value.toString() === ) {
     answerInput.value = "-"
   } else {
     answerInput.value = answerInput.value * -1
