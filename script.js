@@ -18,6 +18,7 @@ const answerForm = document.getElementById("answerForm");
 const negationBtn = document.getElementById("negationBtn")
 negationBtn.addEventListener("click", () => {
   answerInput.value = answerInput.value * -1
+  answerInput.focus()
 })
 
 // containers
