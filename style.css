@@ -19,13 +19,13 @@ body {
   align-items: center;
 }
 
-.btn {
+/* .btn {
   border: 2px solid black;
   background: white;
   padding: 4px 10px 4px 10px;
   border-radius: 30px;
   opacity: 100%;
-}
+} */
 
 .btn:hover {
   opacity: 50%;
