@@ -17,13 +17,13 @@ const answerForm = document.getElementById("answerForm");
 // turn answer into a negation
 const negationBtn = document.getElementById("negationBtn")
 negationBtn.addEventListener("click", () => {
-  if (answerInput.value.toString() === "" ) {
-    answerInput.value = "-"
+  if (answerInput.value === "" ) {
+    answerInput.value = "-0"
   } else {
     answerInput.value = answerInput.value * -1
   }
   
-  answerInput.focus()
+ answerInput.focus()
 })
 
 // containers
