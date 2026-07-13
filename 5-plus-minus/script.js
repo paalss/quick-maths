@@ -132,8 +132,8 @@ viewAnalysisBtn.addEventListener('click', (e) => {
   questionContainer.classList.add('hide');
   restartBtn.classList.add('hide');
   analysisContainer.classList.remove('hide');
-  document.body.style.overflowY = "visible";
-  document.body.style.height = "230vh";
+ // document.body.style.overflowY = "visible";
+  //document.body.style.height = "230vh";
 });
 
 answerForm.addEventListener('submit', (e) => {
