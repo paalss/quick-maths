@@ -1,7 +1,6 @@
 // global variables
 const questionsToDo = 15;
-// const operations = ["+", "-", "x"];
-const operations = ["+", "-"];
+const operations = ["+", "-", "x"];
 let questionsInfo = [];
 let answer, total, correct, equation, start;
 
