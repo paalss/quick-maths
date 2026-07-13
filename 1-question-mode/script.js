@@ -66,10 +66,12 @@ function endGame() {
   endgameContainer.classList.remove('hide');
   questionContainer.classList.add('hide');
   restartBtn.classList.remove('hide');
+ // analysisContainer.classList.remove('hide');
   analysisContainer.classList.add('hide');
   var time = new Date(0);
   time.setSeconds(Math.floor((Date.now() - start) / 1000));
   timeDisplay.innerHTML = time.toISOString().substr(11, 8);
+  //analyse()
 }
 
 function analyse() {
