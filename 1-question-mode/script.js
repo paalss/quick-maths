@@ -91,11 +91,12 @@ function analyse() {
       questionNumber.style.color = red;
       userAnswer.style.color = red;
       actualAnswer.style.color = red;
+    } else {
+      actualAnswer.innerHTML='Correct'
     }
 
     userAnswer.style.fontSize = "14px";
     actualAnswer.style.fontSize = "14px";
-    questionsAnalysis.appendChild(questionNumber);
     questionsAnalysis.appendChild(userAnswer);
     questionsAnalysis.appendChild(actualAnswer);
   }
